@@ -1,9 +1,9 @@
-import React from 'react'
+ import React from 'react'
 
-const AuthLayout = ({children}) => {
+const AuthLayout = ({ children }) => {
   return (
-    <div className='flex justify-center pt-40'>
-     { children}
+    <div className="flex items-center justify-center min-h-screen bg-background">
+      {children}
     </div>
   )
 }
